@@ -1,0 +1,49 @@
+@import url("https://use.typekit.net/kqx4axt.css");
+:root {
+    /* colors */
+    --black-1: #151416;
+    --black-2: #1c191b;
+    --dark-1: #241f22;
+    --dark-2:#2e2627;
+    --medium-1: #4c4042;
+    --medium-2: #8c7b79;
+    --light-1: #e8e1e0;
+    --light-2: #f2efef;
+    --primary-1: #99332e;
+    --primary-2: ;
+    --secondary-1: #d0a6a4;
+    --secondary-2: ;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--black-2);
+}
+p {
+    font-family: objektiv-mk3, sans-serif;
+    /* font-size: 0.8125rem; */
+    font-size: .9rem;
+    line-height: 1.375rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    color: var(--light-1);
+}
+.text-block {
+    max-width: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    padding: 2rem;
+    padding-right: 1rem;
+
+    border: 1px solid var(--medium-1)
+}
+.text-block p {
+    margin-bottom: 0;
+}
