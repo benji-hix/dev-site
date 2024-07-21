@@ -42,7 +42,7 @@ p {
     padding: 2rem;
     padding-right: 1rem;
 
-    border: 1px solid var(--medium-1)
+    border: 1px solid var(--dark-2)
 }
 .text-block p {
     margin-bottom: 0;
