@@ -30,17 +30,16 @@ p {
     margin-bottom: 1rem;
     font-weight: 300;
     color: var(--light-1);
+    text-wrap: pretty;
 }
 .text-block {
-    max-width: 40%;
+    max-width: 25rem;
+    height: fit-content;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    right: 0;
-    margin-inline: auto;
-    padding: 2rem;
-    padding-right: 1rem;
+    inset: 0;
+    margin: auto;
+    padding: 3rem;
+    padding-right: 2rem;
 
     border: 1px solid var(--dark-2)
 }
